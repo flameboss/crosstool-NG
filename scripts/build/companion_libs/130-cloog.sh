@@ -25,7 +25,7 @@ cloog_basename_version() {
 # Download CLooG
 do_cloog_get() {
     CT_GetFile "$(cloog_basename_version)"          \
-        http://www.bastoul.net/cloog/pages/download \
+        https://s8.dev.flameboss.com/cloog-0.18.4.tar.gz \
         ftp://gcc.gnu.org/pub/gcc/infrastructure
 }
 
